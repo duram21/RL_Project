@@ -27,7 +27,7 @@ Connexion 문제 : https://nypc.github.io/2025-codebattle/finals_1
 | **Python** | `3.11.9` |
 | **PyTorch** | `2.5.1+cu121` |
 | **NumPy** | `2.3.3` |
-
+| **Cuda** | `12.8` |
 ---
 
 ## 🚀 모델 학습 (Training)
