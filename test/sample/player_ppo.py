@@ -96,7 +96,7 @@ def main():
                     import torch.nn as nn
                     import torch.nn.functional as F
                     import numpy as n
-                    from connexion_env_11 import ConnexionEnv 
+                    from connexion_env import ConnexionEnv 
                     torch = t; np = n; torch.set_num_threads(1)
                     
                     class ResBlock(nn.Module):
@@ -133,8 +133,8 @@ def main():
 
                     device = torch.device("cpu")
                     model = ActorCritic(1104, 320).to(device)
-                    model_path = "final_model_duram.pt"
-                    if not os.path.exists(model_path): model_path = "final_model_5.pt"
+                    model_path = "best_duram.pt"
+                    if not os.path.exists(model_path): model_path = "final_model.pt"
                     if os.path.exists(model_path):
                         try: model.load_state_dict(torch.load(model_path, map_location=device))
                         except: pass
