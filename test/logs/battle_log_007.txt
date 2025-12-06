@@ -1,0 +1,47 @@
+[FIRST "COMMAND: python player_ppo_5.py P1"]
+[SECOND "COMMAND: python random-code.py P2"]
+[RESULT "*"]
+INIT R1 Y3 G2 Y3 B1 G3 G1 B1 B2 B1
+# Debug FIRST: Traceback (most recent call last):
+# Debug FIRST:   File "C:\Users\SOGANG\Desktop\제출파일\test\sample\player_ppo_5.py", line 189, in <module>
+# Debug FIRST:     main()
+# Debug FIRST:   File "C:\Users\SOGANG\Desktop\제출파일\test\sample\player_ppo_5.py", line 95, in main
+# Debug FIRST:     import torch as t
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\__init__.py", line 2016, in <module>
+# Debug FIRST:     from torch import _VF as _VF, functional as functional  # usort: skip
+# Debug FIRST:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\functional.py", line 7, in <module>
+# Debug FIRST:     import torch.nn.functional as F
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\nn\__init__.py", line 8, in <module>
+# Debug FIRST:     from torch.nn.modules import *  # usort: skip # noqa: F403
+# Debug FIRST:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\nn\modules\__init__.py", line 1, in <module>
+# Debug FIRST:     from .module import Module  # usort: skip
+# Debug FIRST:     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\nn\modules\module.py", line 29, in <module>
+# Debug FIRST:     from torch.utils._python_dispatch import is_traceable_wrapper_subclass
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\utils\__init__.py", line 8, in <module>
+# Debug FIRST:     from torch.utils import (
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\utils\data\__init__.py", line 1, in <module>
+# Debug FIRST:     from torch.utils.data.dataloader import (
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\utils\data\dataloader.py", line 20, in <module>
+# Debug FIRST:     import torch.distributed as dist
+# Debug FIRST:   File "C:\Users\SOGANG\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\torch\distributed\__init__.py", line 3, in <module>
+# Debug FIRST:     import pdb
+# Debug FIRST:   File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+# Debug FIRST:   File "<frozen importlib._bootstrap>", line 1138, in _find_and_load_unlocked
+# Debug FIRST:   File "<frozen importlib._bootstrap>", line 1078, in _find_spec
+# Debug FIRST:   File "<frozen importlib._bootstrap_external>", line 1507, in find_spec
+# Debug FIRST:   File "<frozen importlib._bootstrap_external>", line 1479, in _get_spec
+# Debug FIRST:   File "<frozen importlib._bootstrap_external>", line 1615, in find_spec
+# Debug FIRST:   File "<frozen importlib._bootstrap_external>", line 147, in _path_stat
+# Debug FIRST: KeyboardInterrupt
+# Debug FIRST: ^C
+# Debug SECOND: Traceback (most recent call last):
+# Debug SECOND:   File "C:\Users\SOGANG\Desktop\제출파일\test\sample\random-code.py", line 332, in <module>
+# Debug SECOND:     main()
+# Debug SECOND:   File "C:\Users\SOGANG\Desktop\제출파일\test\sample\random-code.py", line 270, in main
+# Debug SECOND:     line = input().strip()
+# Debug SECOND:            ^^^^^^^
+# Debug SECOND: KeyboardInterrupt
+# Debug SECOND: ^C
