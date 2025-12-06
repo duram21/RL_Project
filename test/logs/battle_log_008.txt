@@ -1,0 +1,5 @@
+[FIRST "COMMAND: python player_ppo.py P1"]
+[SECOND "COMMAND: python sample-code.py P2"]
+[RESULT "0-1"]
+# Debug FIRST: python: can't open file 'C:\\Users\\SOGANG\\Desktop\\제출파일\\test\\sample\\player_ppo.py': [Errno 2] No such file or directory
+ABORT FIRST TLE

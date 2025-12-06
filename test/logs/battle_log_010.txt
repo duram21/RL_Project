@@ -1,0 +1,12 @@
+[FIRST "COMMAND: python player_ppo.py P1"]
+[SECOND "COMMAND: python sample-code.py P2"]
+[RESULT "*"]
+INIT G1 G2 R1 R2 G1 B3 B3 R3 Y2 G2
+# Debug SECOND: Traceback (most recent call last):
+# Debug SECOND:   File "C:\Users\SOGANG\Desktop\제출파일\test\sample\sample-code.py", line 344, in <module>
+# Debug SECOND:     main()
+# Debug SECOND:   File "C:\Users\SOGANG\Desktop\제출파일\test\sample\sample-code.py", line 280, in main
+# Debug SECOND:     line = input().strip()
+# Debug SECOND:            ^^^^^^^
+# Debug SECOND: KeyboardInterrupt
+# Debug SECOND: ^C

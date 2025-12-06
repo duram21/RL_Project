@@ -19,7 +19,7 @@ from connexion_env_11 import ConnexionEnv
 SEED = 21
 
 # 에피소드 기반 self-play
-MAX_EPISODES      = 1_000
+MAX_EPISODES      = 250_000
 SELF_PLAY_START   = 3_000     # 여기부터 best self-play 상대 등장
 HEURISTIC_START_EP = 8_000    # 여기부터 휴리스틱 엔진도 opponent pool에 투입
 HEURISTIC_PROB    = 0.4         # 해당 구간에서 heuristic opponent로 붙을 확률
@@ -48,8 +48,8 @@ KL_STOP_FACTOR  = 4.0  # approx_kl > KL_TARGET * 4 면 해당 업데이트 early
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-BEST_MODEL_PATH = "best_model_duram2.pt"
-FINAL_MODEL_PATH = "final_model_duram2.pt"
+BEST_MODEL_PATH = "best_model.pt"
+FINAL_MODEL_PATH = "final_model.pt"
 
 
 # ─────────────────────────────────────────────────────────────
