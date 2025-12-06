@@ -2,7 +2,7 @@
 
 이 프로젝트는 **PPO(Proximal Policy Optimization)** 알고리즘을 사용하여 보드게임 **Connexion**을 플레이하는 강화학습 에이전트를 학습시키고, 다양한 상대를 대상으로 성능을 평가하는 시스템입니다.
 
-Connexion 문 : https://nypc.github.io/2025-codebattle/finals_1
+Connexion 문제 : https://nypc.github.io/2025-codebattle/finals_1
 
 게임 시뮬레이터 : https://dh6l222gjj2c6.cloudfront.net/1p
 
