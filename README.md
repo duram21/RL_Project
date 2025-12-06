@@ -10,6 +10,14 @@ Connexion 문제 : https://nypc.github.io/2025-codebattle/finals_1
 
 ---
 
+## 결과 예시 
+
+
+![SampleWin](https://github.com/user-attachments/assets/3a9e460d-00f5-4810-bde6-b6e795273556)
+
+
+
+
 ## 🛠 실험 환경 (Environment)
 
 본 프로젝트는 아래 환경에서 테스트 및 검증되었습니다.
