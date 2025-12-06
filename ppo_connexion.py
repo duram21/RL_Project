@@ -10,7 +10,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Categorical
 
-from connexion_env_11 import ConnexionEnv
+from connexion_env import ConnexionEnv
 
 # ─────────────────────────────────────────────────────────────
 # 설정값 (self-play + PPO)
